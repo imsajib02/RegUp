@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_65sdp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="@dimen/_8sdp"
+        android:text="Name: " />
+
+    <TextView
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:padding="@dimen/_8sdp"
+        android:text="Blood Group: " />
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="@dimen/_38sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/_28sdp"
+        android:layout_marginRight="@dimen/_28sdp"
+        android:background="@drawable/ic_call" />
+
+</RelativeLayout>

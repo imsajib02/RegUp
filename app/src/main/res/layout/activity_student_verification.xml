@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorlightgrayishblue"
+    tools:context="bd.app.mypackage.regup.StudentVerificationActivity">
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_85sdp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/v_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView16"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignRight="@+id/textView16"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_below="@+id/textView16"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="ID Number" />
+
+    <EditText
+        android:id="@+id/ser_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/v_id"
+        android:layout_alignLeft="@+id/v_id"
+        android:layout_alignRight="@+id/v_id"
+        android:layout_alignStart="@+id/v_id"
+        android:layout_below="@+id/v_id"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:ems="10"
+        android:hint="Serial Number"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ser_num"
+        android:layout_alignLeft="@+id/ser_num"
+        android:layout_alignRight="@+id/ser_num"
+        android:layout_alignStart="@+id/ser_num"
+        android:layout_below="@+id/ser_num"
+        android:textAlignment="center"
+        android:padding="@dimen/_2sdp"
+        android:text="@string/student_nb" />
+
+    <Button
+        android:id="@+id/verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/mybutton"
+        android:text="verify"
+        android:textSize="@dimen/_13sdp" />
+
+</RelativeLayout>

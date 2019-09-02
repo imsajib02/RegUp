@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">RegUP</string>
+    <string name="aca_info"><u>Fill up academic information</u></string>
+    <string name="per_info"><u>Fill up your personal information</u></string>
+    <string name="developer"><u>Developers:</u></string>
+    <string name="supervisor"><u>Supervised By:</u></string>
+    <string name="special"><u>Special Thanks To:</u></string>
+    <string name="email_nb">[N.B: Use your valid Email address.
+        It will be used in case of password recovery.]</string>
+
+    <string name="blood_vault_nb">If you do not want to include your
+        phone number for blood vault, click the checkbox below.</string>
+
+    <string name="student_nb">[N.B: You can find the serial number on the back
+        of your ID card.]</string>
+
+    <string name="format_nb">Rule: \"CSE\" + \"-\" + 3 digit numeric code + \"-\" + \"30\"</string>
+
+    <string name="supervisor_nb">[N.B: Don\'t fill up the boxes below if you are
+        not in charge of any section of any intake.]</string>
+    <string name="pass_nb">[N.B: Password must be 8 characters long.]</string>
+    <string name="title_activity_student_home">StudentHomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_complete_registration">CompleteRegistrationActivity</string>
+    <string name="title_activity_faculty_view1">FacultyViewActivity1</string>
+    <string name="title_activity_faculty_view2">FacultyViewActivity2</string>
+    <string name="title_activity_faculty_view3">FacultyViewActivity3</string>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorlightgrayishblue"
+    tools:context="bd.app.mypackage.regup.EnableSubmissionActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_100sdp"
+            android:layout_marginRight="@dimen/_100sdp"
+            android:id="@+id/linearLayout">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="Update Submission Info:"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/_16sdp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:orientation="horizontal"
+                android:id="@+id/linearLayout2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/date"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:drawableLeft="@drawable/ic_date_range_black"
+                        android:drawableStart="@drawable/ic_date_range_black"
+                        android:drawablePadding="@dimen/_5sdp"
+                        android:ems="10"
+                        android:hint="Submission Last Date"
+                        android:inputType="date" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="3">
+
+                    <Button
+                        android:id="@+id/datepicker"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Pick"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinner_semester"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_20sdp" />
+
+            <Button
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_gravity="center"
+                android:text="Enable Submission"
+                android:background="@drawable/mybutton"
+                android:textSize="@dimen/_13sdp"/>
+
+            <Button
+                android:id="@+id/extend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_gravity="center"
+                android:text="Extend date"
+                android:background="@drawable/mybutton"
+                android:textSize="@dimen/_13sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_10sdp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorlightgrayishblue"
+    tools:context="bd.app.mypackage.regup.FacultyViewActivity3"
+    tools:showIn="@layout/app_bar_faculty_view3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_65sdp"
+            android:layout_marginLeft="@dimen/_70sdp"
+            android:layout_marginRight="@dimen/_70sdp"
+            android:id="@+id/linearLayout">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Name:"
+                android:padding="@dimen/_4sdp"
+                android:textSize="@dimen/_14sdp"/>
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_4sdp"
+                android:text="ID:"
+                android:textSize="@dimen/_14sdp" />
+
+            <TextView
+                android:id="@+id/totalcredit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_4sdp"
+                android:text="Total Credit: "
+                android:textSize="@dimen/_14sdp"/>
+
+            <TextView
+                android:id="@+id/totalcourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_4sdp"
+                android:text="Number of Course Taken: "
+                android:textSize="@dimen/_14sdp"/>
+
+            <ListView
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_250sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:divider="#ffffff"
+                android:dividerHeight="@dimen/_2sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_10sdp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

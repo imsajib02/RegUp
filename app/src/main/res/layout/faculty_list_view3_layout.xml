@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_90sdp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ccode"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:padding="@dimen/_8sdp"
+                    android:text="Code: "
+                    android:textSize="@dimen/_12sdp"/>
+
+                <TextView
+                    android:id="@+id/cname"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/_8sdp"
+                    android:text="Name: "
+                    android:textSize="@dimen/_12sdp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1.5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ccredit"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:padding="@dimen/_8sdp"
+                    android:text="Credit: "
+                    android:textSize="@dimen/_12sdp"/>
+
+                <TextView
+                    android:id="@+id/ctype"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:padding="@dimen/_8sdp"
+                    android:text="Type: "
+                    android:textSize="@dimen/_12sdp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

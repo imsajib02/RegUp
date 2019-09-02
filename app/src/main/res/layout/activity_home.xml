@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorlightgrayishblue"
+    tools:context="bd.app.mypackage.regup.HomeActivity">
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/_50sdp"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_70sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:padding="@dimen/_3sdp"
+            android:text=""
+            android:textSize="@dimen/_12sdp"/>
+
+        <TextView
+            android:id="@+id/idd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:padding="@dimen/_3sdp"
+            android:text=""
+            android:textSize="@dimen/_12sdp"/>
+
+        <TextView
+            android:id="@+id/intake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:padding="@dimen/_3sdp"
+            android:text=""
+            android:textSize="@dimen/_12sdp"/>
+
+        <TextView
+            android:id="@+id/section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:padding="@dimen/_3sdp"
+            android:text=""
+            android:textSize="@dimen/_12sdp"/>
+
+        <TextView
+            android:id="@+id/dept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:padding="@dimen/_3sdp"
+            android:text=""
+            android:textSize="@dimen/_12sdp"/>
+
+        <TextView
+            android:id="@+id/showtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_70sdp"
+            android:gravity="center"
+            android:padding="@dimen/_3sdp"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/com_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/mybutton"
+            android:text="Submit Courses"
+            android:textSize="@dimen/_13sdp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

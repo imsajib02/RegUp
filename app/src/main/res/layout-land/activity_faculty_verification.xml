@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorlightgrayishblue"
+    tools:context="bd.app.mypackage.regup.FacultyVerificationActivity">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/short_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView16"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignRight="@+id/textView16"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_below="@+id/textView16"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:ems="10"
+        android:hint="Short Code"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/pass_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/short_code"
+        android:layout_alignLeft="@+id/short_code"
+        android:layout_alignRight="@+id/short_code"
+        android:layout_alignStart="@+id/short_code"
+        android:layout_below="@+id/short_code"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:ems="10"
+        android:hint="Pass Code"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/pass_code"
+        android:layout_alignLeft="@+id/pass_code"
+        android:layout_alignRight="@+id/pass_code"
+        android:layout_alignStart="@+id/pass_code"
+        android:layout_below="@+id/pass_code"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/mybutton"
+        android:text="verify"
+        android:textSize="@dimen/_13sdp" />
+
+</RelativeLayout>
