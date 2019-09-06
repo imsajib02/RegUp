@@ -151,7 +151,8 @@ public class LoginActivity extends AppCompatActivity {
                                                     if(task.isSuccessful()){
 
                                                         //admin login
-                                                        if(TextUtils.equals(mail,"regup.bubt@gmail.com"))
+                                                        //TODO: Use your own admin email
+                                                        if(TextUtils.equals(mail,"admin_mail@mail_address.com"))
                                                         {
                                                             progressDialog.dismiss();
                                                             Toast.makeText(getApplicationContext(),"Logged in as ADMIN!",Toast.LENGTH_LONG).show();
