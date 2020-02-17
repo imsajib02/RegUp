@@ -19,5 +19,5 @@ Developed this application as a final year project of my graduation. This app is
 |   |   |   |   |   |
 |-----|-----|-----|-----|-----|
 |  |  | ![](/Snapshots/1.png) |  |  |
-| ![](/Snapshots/General/1.png) | ![](/Snapshots/General/2.png) | ![](/Snapshots/General/3.png) | ![](/Snapshots/General/4.png) | ![](/Snapshots/General/5.png) |
-| ![](/Snapshots/General/6.png) | ![](/Snapshots/General/7.png) | ![](/Snapshots/General/8.png) | ![](/Snapshots/General/9.png) | ![](/Snapshots/General/10.png) |
+| ![](/Snapshots/General/1.png) | ![](/Snapshots/General/2.png) | ![](/Snapshots/General/3.png) | ![](/Snapshots/General/4.png) | ![](/Snapshots/General/5.jpg) |
+| ![](/Snapshots/General/6.jpg) | ![](/Snapshots/General/7.jpg) | ![](/Snapshots/General/8.png) | ![](/Snapshots/General/9.jpg) | ![](/Snapshots/General/10.jpg) |
