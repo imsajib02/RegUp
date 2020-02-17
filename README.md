@@ -12,4 +12,4 @@ Developed this application as a final year project of my graduation. This app is
 * **View submitted data (Faculty)**
 * **Save data to external memory in CSV file format (Faculty)**
 * **Blood vault as an additional feature**
-* **Admin panel for opening course submission, adding faculty, remove=ing faculty, updating faculty information, adding new course, removing an existing course and updating course informations**
+* **In-app admin panel for opening course submission, adding faculty, removing faculty, updating faculty information, adding new course, removing an existing course and updating course informations**
