@@ -1,11 +1,14 @@
-# RegUp features - 
+# RegUp
+Developed this application as a final year project of my graduation. This app is specifically built for **Bangladesh University of Business and Technology**. The intent of building this application is to digitalize the course submission procedure for students and for faculties to view and save those submitted data. Functonalities of this app now works only for the department of **Computer Science and Engineering**. Did not get enough time to collect data from other departments. This app is integrated with **Firebase Authentication** and **Firebase Cloud Storage**. An **API** is used to verify the students of **BUBT**.
 
-# 1. User authentication through email
-# 2. Change and recover login credentials
-# 3. Email verification
-# 4. Submit or update courses if submission is open (for students)
-# 5. View and save submitted data to phone's external storage (for faculties)
 
-I developed this application as a final year project of my graduation. Through this application students can submit which courses they wish to take for the next upcoming semester. Also faculties who are supervisors of a particular intake/section can see and save the submitted course data by the students of that intake/section.
-
-This application is made specifically for my university. But with little bit of modifications it can be used for any other university or educational institution. Because I have used Firebase APIs in my project, so for security purpose I have removed the 'google-services.json' file from the project. If you want to use this project then you have to link your own Firebase 'google-services.json' to this project. You can design your Cloud Firestore database according to this project or you can design as you wish and then change the queries according to your own design. For student verification I have used volley http request to an API url provided to me by my varsity authority. This API gives a students identity information as a result. I have removed my API url. If you want to use this function then you have to use your own API url in the java file 'StudentVerificationActivity'.
+## Features:
+* **Student verification through API**
+* **Faculty verification**
+* **Firebase email, password authentication for login and registration**
+* **Email verification**
+* **Change and recover login credentials**
+* **Submit and update courses (Student)**
+* **View submitted data (Faculty)**
+* **Save data to external memory in CSV file format (Faculty)**
+* **Blood vault as an additional feature**
