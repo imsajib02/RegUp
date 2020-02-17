@@ -25,6 +25,37 @@ Developed this application as a final year project of my graduation. This app is
 ###### Student Registration
 |   |   |   |   |
 |-----|-----|-----|-----|
-|  |  | ![](/Snapshots/1.png) |  |  |
 | ![](/Snapshots/Student%20Registration/1.jpg) | ![](/Snapshots/Student%20Registration/2.jpg) | ![](/Snapshots/Student%20Registration/3.jpg) | ![](/Snapshots/Student%20Registration/4.jpg) |
 | ![](/Snapshots/Student%20Registration/5.png) | ![](/Snapshots/Student%20Registration/6.png) | ![](/Snapshots/Student%20Registration/7.jpg) | ![](/Snapshots/Student%20Registration/8.png) |
+
+###### Student Login
+|   |   |   |   |   |
+|-----|-----|-----|-----|-----|
+|  |  | ![](/Snapshots/Student%20Login/1.jpg) |  |  |
+| ![](/Snapshots/Student%20Login/2.jpg) | ![](/Snapshots/Student%20Login/3.jpg) | ![](/Snapshots/Student%20Login/4.png) | ![](/Snapshots/Student%20Login/5.png) | ![](/Snapshots/Student%20Login/6.jpg) |
+| ![](/Snapshots/Student%20Login/7.jpg) | ![](/Snapshots/Student%20Login/8.png) | ![](/Snapshots/Student%20Login/9.jpg) | ![](/Snapshots/Student%20Login/10.jpg) | ![](/Snapshots/Student%20Login/11.png) |
+
+###### Faculty Registration
+|   |   |   |   |
+|-----|-----|-----|-----|
+| ![](/Snapshots/Faculty%20Registration/1.jpg) | ![](/Snapshots/Faculty%20Registration/2.jpg) | ![](/Snapshots/Faculty%20Registration/3.jpg) | ![](/Snapshots/Faculty%20Registration/4.jpg) |
+| ![](/Snapshots/Faculty%20Registration/5.png) | ![](/Snapshots/Faculty%20Registration/6.png) | ![](/Snapshots/Faculty%20Registration/7.jpg) | ![](/Snapshots/Faculty%20Registration/8.png) |
+
+###### Faculty Login
+|   |   |   |   |   |
+|-----|-----|-----|-----|-----|
+| ![](/Snapshots/Faculty%20Login/1.jpg) | ![](/Snapshots/Faculty%20Login/2.jpg) | ![](/Snapshots/Faculty%20Login/3.jpg) | ![](/Snapshots/Faculty%20Login/4.jpg) | ![](/Snapshots/Faculty%20Login/5.png) |
+| ![](/Snapshots/Faculty%20Login/6.jpg) | ![](/Snapshots/Faculty%20Login/7.jpg) | ![](/Snapshots/Faculty%20Login/8.jpg) | ![](/Snapshots/Faculty%20Login/9.png) |
+
+###### Admin Panel
+|   |   |   |   |   |
+|-----|-----|-----|-----|-----|
+| ![](/Snapshots/Admin/1.png) | ![](/Snapshots/Admin/2.png) | ![](/Snapshots/Admin/3.png) | ![](/Snapshots/Admin/4.png) | ![](/Snapshots/Admin/5.png) |
+| ![](/Snapshots/Admin/6.png) | ![](/Snapshots/Admin/7.png) | ![](/Snapshots/Admin/8.png) | ![](/Snapshots/Admin/9.png) |
+
+###### Navigation Bar
+|   |   |   |   |   |
+|-----|-----|-----|-----|-----|
+| ![](/Snapshots/Navigation%20Bar/1.jpg) | ![](/Snapshots/Navigation%20Bar/2.jpg) | ![](/Snapshots/Navigation%20Bar/3.png) | ![](/Snapshots/Navigation%20Bar/4.jpg) | ![](/Snapshots/Navigation%20Bar/5.jpg) |
+| ![](/Snapshots/Navigation%20Bar/6.jpg) | ![](/Snapshots/Navigation%20Bar/7.jpg) | ![](/Snapshots/Navigation%20Bar/8.jpg) | ![](/Snapshots/Navigation%20Bar/9.png) | ![](/Snapshots/Navigation%20Bar/10.jpg) |
+| ![](/Snapshots/Navigation%20Bar/11.jpg) | ![](/Snapshots/Navigation%20Bar/12.jpg) | ![](/Snapshots/Navigation%20Bar/13.png) | ![](/Snapshots/Navigation%20Bar/14.jpg) | ![](/Snapshots/Navigation%20Bar/15.png) |
